@@ -10,7 +10,7 @@ This project focuses on classifying the Fashion MNIST dataset, which consists of
   7. Shirt
   8. Sneaker
   9. Bag
-  10. Ankle Boot
+   10. Ankle Boot
 
 
 # Model Architecture 
@@ -30,8 +30,8 @@ With this architecture, I achieved an accuracy of approximately 90% on the test 
 
 
 # Additional Details
-  • Optimization: The model was trained on the Adam Optimizer with a learning rate of 0.002.
-  • Loss Function: Cross Entropy Loss was used as the objective function. 
-  • Training: The model was trained for 30 epochs with a batch size of 64. 
-  • Pooling: One layer of Max Pooling with a stride of 1 has been applied to reduce the spatial dimensions. 
-  • Regularization: Dropout Regularization with a probability of 0.2 was applied to the fully connected layers to prevent overfitting.
+  • Optimization: The model was trained on the Adam Optimizer with a learning rate of 0.002.  
+  • Loss Function: Cross Entropy Loss was used as the objective function.   
+  • Training: The model was trained for 30 epochs with a batch size of 64.    
+  • Pooling: One layer of Max Pooling with a stride of 1 has been applied to reduce the spatial dimensions.    
+  • Regularization: Dropout Regularization with a probability of 0.2 was applied to the fully connected layers to prevent overfitting.    
